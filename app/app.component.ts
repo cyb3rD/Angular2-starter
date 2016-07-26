@@ -15,7 +15,7 @@ import {ProductListComponent} from './products/product-list.component';
     <pm-products></pm-products>
   </div>
   `,
-  // array of components
+  // array of directives, components
   directives: [ProductListComponent] 
 })
 // Name convention AppComponent - for the root

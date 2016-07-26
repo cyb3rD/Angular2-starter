@@ -32,7 +32,7 @@ System.register(['angular2/core', './products/product-list.component'], function
                         // component directive name
                         selector: 'pm-app',
                         template: "         \n  <div><h1>{{pageTitle}}</h1>\n    <pm-products></pm-products>\n  </div>\n  ",
-                        // array of components
+                        // array of directives, components
                         directives: [product_list_component_1.ProductListComponent]
                     }), 
                     __metadata('design:paramtypes', [])
