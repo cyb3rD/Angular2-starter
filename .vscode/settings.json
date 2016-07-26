@@ -3,6 +3,5 @@
     "files.exclude": {
         "**/.git": true,
         "**/.DS_Store": true
-    }, 
-    "files.autoSave": "afterDelay"
+    }
 }
