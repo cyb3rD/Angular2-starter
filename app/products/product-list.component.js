@@ -23,6 +23,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
             ProductListComponent = (function () {
                 function ProductListComponent() {
                     this.pageTitle = 'Product List';
+                    this.imageWidth = 50;
+                    this.imageMargin = 2;
+                    this.showImage = false;
                     // not the best solution
                     this.products = [
                         {
@@ -47,6 +50,9 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                         }
                     ];
                 }
+                ProductListComponent.prototype.toggleImage = function () {
+                    this.showImage = !this.showImage;
+                };
                 ProductListComponent = __decorate([
                     core_1.Component({
                         selector: 'pm-products',
